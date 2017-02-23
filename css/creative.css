@@ -156,6 +156,7 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
+  /*background-image: url('https://unsplash.it/1920/1280?random');*/
   text-align: center;
   color: white;
 }
