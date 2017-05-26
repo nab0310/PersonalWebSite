@@ -1,0 +1,61 @@
+#area {
+	font-family: courier, monospace;
+	color: #fff;
+  width: 95%;
+  box-sizing: border-box;
+  height: 250px;
+  border: 1px solid black;
+  display: block;
+}
+
+form label {
+  display: inline;
+  white-space: nowrap;
+}
+
+body {
+		background-color: #000
+	}
+	#console {
+		font-family: courier, monospace;
+		color: #fff;
+		width:750px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:100px;
+		font-size:14px;
+	}
+	a {
+		color: #0bc;
+		text-decoration: none;
+	}
+	#a {
+		color: #0f0;
+	}
+	#c {
+		color: #0bc;
+	}
+	#b {
+		color: #ff0096;
+	}
+
+#home{
+    float: left;
+    margin-right: 5px;
+}
+.inputContainer div {
+    overflow: hidden;
+}
+.inputContainer input[type="text"] {
+		background-color: #000;
+    width: 100%;
+	  border: none;
+	  border-bottom: solid 2px #000;
+	  transition: border 0.3s;
+		color: #fff;
+}
+
+.style-4 input[type="text"]:focus,
+.style-4 input[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
