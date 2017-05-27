@@ -3,7 +3,7 @@ var directory = JSON.parse('{"about":["about.txt"],"experience":["summer2015.txt
 //let currentDirectory = document.getElementById('b').innerText;
 
 typer('#area',7).line("<p style= 'text-align: center'>Welcome to my console based website!</p>")
-              .line("<p style= 'text-align: center'>This is an experement to help me with my JavaScript and CSS abilities.</p>")
+              .line("<p style= 'text-align: center'>This is an experiment help me with my JavaScript and CSS abilities.</p>")
               .line("<p style= 'text-align: center'>While your here, use dir/ls to get the contents of a directory,</p>")
               .line("<p style= 'text-align: center'>cat -filename- to get more info on it, clr or clear to clear your screen,</p>")
               .line("<p style= 'text-align: center'>cd -directory- to change to that directory,</p>")
@@ -78,7 +78,7 @@ function evaluateInput(input){
       break;
     case "help":
     typer('#area',7).line("<p style= 'text-align: center'>Welcome to my console based website!</p>")
-                  .line("<p style= 'text-align: center'>This is an experement to help me with my JavaScript and CSS abilities.</p>")
+                  .line("<p style= 'text-align: center'>This is an experiment to help me with my JavaScript and CSS abilities.</p>")
                   .line("<p style= 'text-align: center'>While your here, use dir/ls to get the contents of a directory,</p>")
                   .line("<p style= 'text-align: center'>cat -filename- to get more info on it, clr or clear to clear your screen,</p>")
                   .line("<p style= 'text-align: center'>cd -directory- to change to that directory,</p>")
